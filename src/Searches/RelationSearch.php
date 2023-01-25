@@ -1,9 +1,9 @@
 <?php
 
-namespace Titasgailius\SearchRelations\Searches;
+namespace Workup\SearchRelations\Searches;
 
 use Illuminate\Database\Eloquent\Builder;
-use Titasgailius\SearchRelations\Contracts\Search;
+use Workup\SearchRelations\Contracts\Search;
 use Illuminate\Database\Eloquent\RelationNotFoundException;
 
 class RelationSearch implements Search
@@ -45,7 +45,7 @@ class RelationSearch implements Search
     /**
      * Apply column search.
      *
-     * @return \Titasgailius\SearchRelations\Contracts\Search
+     * @return \Workup\SearchRelations\Contracts\Search
      */
     protected function columnSearch(): Search
     {

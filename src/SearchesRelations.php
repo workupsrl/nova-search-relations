@@ -1,11 +1,11 @@
 <?php
 
-namespace Titasgailius\SearchRelations;
+namespace Workup\SearchRelations;
 
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
-use Titasgailius\SearchRelations\Contracts\Search;
-use Titasgailius\SearchRelations\Searches\RelationSearch;
+use Workup\SearchRelations\Contracts\Search;
+use Workup\SearchRelations\Searches\RelationSearch;
 
 trait SearchesRelations
 {
@@ -106,7 +106,7 @@ trait SearchesRelations
      *
      * @param  string $relation
      * @param  mixed $columns
-     * @return \Titasgailius\SearchRelations\Contracts\Search
+     * @return \Workup\SearchRelations\Contracts\Search
      */
     protected static function parseSearch($relation, $columns): Search
     {

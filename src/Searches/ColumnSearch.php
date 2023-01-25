@@ -1,9 +1,9 @@
 <?php
 
-namespace Titasgailius\SearchRelations\Searches;
+namespace Workup\SearchRelations\Searches;
 
 use Illuminate\Database\Eloquent\Builder;
-use Titasgailius\SearchRelations\Contracts\Search;
+use Workup\SearchRelations\Contracts\Search;
 
 class ColumnSearch implements Search
 {

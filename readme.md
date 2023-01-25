@@ -1,6 +1,3 @@
-I stand with Ukraine | 🇺🇦
-:---: | :---
-
 # Search relationships in Laravel Nova
 
 This package allows you to include relationship columns into Laravel Nova search query.
@@ -12,12 +9,12 @@ This package allows you to include relationship columns into Laravel Nova search
 ## Installation
 
 ```
-composer require titasgailius/search-relations
+composer require workup/search-relations
 ```
 
-Next, add `Titasgailius\SearchRelations\SearchesRelations` trait to your base resource class `App\Nova\Resource`
+Next, add `Workup\SearchRelations\SearchesRelations` trait to your base resource class `App\Nova\Resource`
 ```php
-use Titasgailius\SearchRelations\SearchesRelations;
+use Workup\SearchRelations\SearchesRelations;
 
 abstract class Resource extends NovaResource
 {
@@ -151,7 +148,7 @@ the current query `$query`, a relationship name `$relation` and a search input `
 ```php
 <?php
 
-namespace Titasgailius\SearchRelations\Contracts;
+namespace Workup\SearchRelations\Contracts;
 
 use Illuminate\Database\Eloquent\Builder;
 
@@ -169,4 +166,4 @@ interface Search
 }
 ```
 
-You may take a look at the `Titasgailius\SearchRelations\Searches\RelationSearch` class as an example.
+You may take a look at the `Workup\SearchRelations\Searches\RelationSearch` class as an example.

@@ -1,5 +1,5 @@
 {
-    "name": "titasgailius/search-relations",
+    "name": "workup/search-relations",
     "description": "A Laravel Nova tool.",
     "keywords": [
         "laravel",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Titasgailius\\SearchRelations\\": "src/"
+            "Workup\\SearchRelations\\": "src/"
         }
     },
     "config": {
